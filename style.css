@@ -17,13 +17,15 @@ body{
     height: 100vh;
     font-family: var(--font);
     background-color: var(--bg-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
    
     
 }
 #container{
     margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
     width: 340px;
     height: 550px;
     background-color: var(--bg-card);
